@@ -51,7 +51,8 @@
         "partialFlow": true
       },
       "ID": 1,
-      "description": "This partial flow writes mail data into a file."
+      "description": "This partial flow writes mail data into a file.",
+      "isNegative": false
     },
     {
       "source": {
@@ -95,7 +96,8 @@
         "partialFlow": true
       },
       "ID": 2,
-      "description": "This partial flow reads the file and sends it to a HTTP Server."
+      "description": "This malicious flow sends a log file storing mail data to a remote server.",
+      "isNegative": false
     }
   ]
 }
